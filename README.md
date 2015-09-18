@@ -1,18 +1,42 @@
-  _____                      __         .__    _________ __                 __                .__               
-_/ ____\___________    _____/  |______  |  |  /   _____//  |_____________ _/  |_  ____   ____ |__| ____   ______
-\   __\\_  __ \__  \ _/ ___\   __\__  \ |  |  \_____  \\   __\_  __ \__  \\   __\/ __ \ / ___\|  |/ __ \ /  ___/
- |  |   |  | \// __ \\  \___|  |  / __ \|  |__/        \|  |  |  | \// __ \|  | \  ___// /_/  >  \  ___/ \___ \ 
- |__|   |__|  (____  /\___  >__| (____  /____/_______  /|__|  |__|  (____  /__|  \___  >___  /|__|\___  >____  >
-                   \/     \/          \/             \/                  \/          \/_____/         \/     \/ 
-    ----------------------------------------------------------------- 
+___________.__            .___                           
+\_   _____/|__| ____    __| _/                           
+ |    __)  |  |/    \  / __ |                            
+ |     \   |  |   |  \/ /_/ |                            
+ \___  /   |__|___|  /\____ |                            
+     \/            \/      \/                            
+__________         __    __                              
+\______   \_____ _/  |__/  |_  ___________  ____   ______
+ |     ___/\__  \\   __\   __\/ __ \_  __ \/    \ /  ___/
+ |    |     / __ \|  |  |  | \  ___/|  | \/   |  \\___ \ 
+ |____|    (____  /__|  |__|  \___  >__|  |___|  /____  >
+                \/                \/           \/     \/ 
+.__                                                      
+|__| ____                                                
+|  |/    \                                               
+|  |   |  \                                              
+|__|___|  /                                              
+        \/                                               
+                                                         
+ ___.__. ____  __ _________                              
+<   |  |/  _ \|  |  \_  __ \                             
+ \___  (  <_> )  |  /|  | \/                             
+ / ____|\____/|____/ |__|                                
+ \/                                                      
+________          __                                     
+\______ \ _____ _/  |______                              
+ |    |  \\__  \\   __\__  \                             
+ |    `   \/ __ \|  |  / __ \_                           
+/_______  (____  /__| (____  /                           
+        \/     \/          \/
+----------------------------------------------------------------- 
 
+Data tells a story. Are you paying attention?
 
-Hi there! Welcome to Cloud9 IDE!
+Welcome to fractalStrategies. Find the patterns in your data.
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
+To get you started, explore a few of the projects and demonstrations, 
+connect your own data,
+or visit http://fractalstrategies.com for our documentation.
 
-Happy coding!
-The Cloud9 IDE team
+Happy mining!
+The fractalStrategies team
