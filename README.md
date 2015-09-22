@@ -41,4 +41,4 @@ connect your own data,
 or visit http://fractalstrategies.com for our documentation.
 
 Happy mining!
-The fractalStrategies team
+The <fractalStrategies> team
