@@ -1,0 +1,21 @@
+{
+  "name": "fractalstrategies",
+  "version": "1.0.0",
+  "description": "A portfolio of data tools",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahazrat/fractalstrategies.git"
+  },
+  "author": "Asif Hazrat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahazrat/fractalstrategies/issues"
+  },
+  "homepage": "https://github.com/ahazrat/fractalstrategies#readme"
+}
