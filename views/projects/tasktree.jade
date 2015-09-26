@@ -51,4 +51,8 @@ block content
           li History / Activity
     .row.demonstration
       .col-xs-6
-        a(id='runscript', href='#', class='btn', role='button') Click me
+        each task, i in tasktree
+          .task
+            h3= task.taskname
+            p= task.completion
+    a(href='/newtask') Add Task

@@ -20,8 +20,13 @@ router.get('/tech', function (req, res, next) {
 
 /* GET project pages */
 router.get('/tasktree', function (req, res, next) {
-    res.render('projects/tasktree', {
-        title: 'TaskTree <fractalStrategies>'
+    var db = req.db;
+    var collection = db.get('project1');
+    collection.find({}, {}, function (e, docs) {
+        res.render('projects/tasktree', {
+            title: 'TaskTree <fractalStrategies>',
+            tasktree: docs
+        });
     });
 });
 router.get('/reddit', function (req, res, next) {
@@ -45,21 +50,9 @@ router.get('/calculator', function (req, res, next) {
     });
 });
 
-/* GET dataview page */
-router.get('/dataview', function (req, res, next) {
-    var db = req.db;
-    var collection = db.get('project1');
-    collection.find({}, {}, function (e, docs) {
-        res.render('dataview', {
-            title: 'TaskTree <fractalStrategies>',
-            tasktree: docs
-        });
-    });
-});
-
 /* GET newtask page */
 router.get('/newtask', function (req, res, next) {
-    res.render('newtask', {
+    res.render('projects/newtask', {
         title: 'New Task <fractalStrategies>'
     });
 });
@@ -83,7 +76,7 @@ router.post('/newtask', function (req, res, next) {
         if (err) {
             res.send('There was a problem adding the information to the database.');
         } else {
-            res.redirect('dataview');
+            res.redirect('/tasktree');
         }
     });
     
