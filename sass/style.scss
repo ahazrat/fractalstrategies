@@ -1,0 +1,22 @@
+// @import "lib/bourbon/bourbon";
+@import 'partials/base';
+
+.jumbotron-home {
+    background-image: url("http://i.imgur.com/tcTemqQ.jpg");
+}
+
+.jumbotron-contact {
+    background-image: url('http://i.imgur.com/90GeeqR.jpg');
+}
+
+.jumbotron-tech {
+    background-image: url('http://i.imgur.com/c76mpfs.jpg');
+}
+
+.demonstration {
+    height: 300px;
+    background-color: $demonstration-background-color;
+    a {
+        background-color: $button-color;
+    }
+}

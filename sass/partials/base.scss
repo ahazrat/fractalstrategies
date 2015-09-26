@@ -1,0 +1,17 @@
+@import '../modules/all';
+
+body {
+    background-color: $background-color;
+    color: $text-color;
+    font-family: $base-font;
+    //  text-shadow: $text-shadow;
+}
+
+.navbar {
+    margin: 0;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-position: center;
+}

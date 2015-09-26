@@ -1,0 +1,15 @@
+extends ../layout
+
+block title
+  title= title
+
+block content
+  .jumbotron
+    .container
+      h1 Order Kiosk
+  .container(ng-app='app')
+    .row
+      .col-xs-12
+        p Name: 
+          input(type='text' ng-model='name')
+          h1 {{name}}

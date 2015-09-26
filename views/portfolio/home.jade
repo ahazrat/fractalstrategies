@@ -1,0 +1,31 @@
+extends ../layout
+
+block content
+  
+  .jumbotron.jumbotron-home
+    .container
+      h1 explore your data
+      p Data tells a story. Find the patterns in your data.
+      p: a(class='btn btn-primary btn-lg', href='#', role='button') Learn more &raquo;
+      
+  .container
+    .row
+      .col-xs-4
+        h2 organize
+        p make your data work for you
+        p: a(class='btn btn-default', href='#', role='button') View details &raquo;
+      .col-xs-4
+        h2 visualize
+        p visualize your organization in real time
+        p: a(class='btn btn-default', href='#', role='button') View details &raquo;
+      .col-xs-4
+        h2 analyze
+        p find the heartbeat of your company
+        p: a(class='btn btn-default', href='#', role='button') View details &raquo;
+        
+  h1= title
+  p Welcome to #{title}
+  
+  h3 What would you like to do?
+  input(ng-model='name')
+  p Hello {{name}}

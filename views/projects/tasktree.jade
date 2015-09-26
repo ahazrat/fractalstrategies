@@ -1,0 +1,54 @@
+extends ../layout
+
+block title
+  title= title
+
+block content
+  .jumbotron
+    .container
+      h1 TaskTree
+  .container
+    .row
+      .col-xs-3
+        h1 Percentage Based Tasking
+        ul
+          li Every step of a process can be defined as a task
+          li Tasks can be embedded with other tasks
+          li Child tasks define the completion of the parent task
+          li Child tasks default to an equal distribution of the percentage completed of the parent task
+          li Child tasks can be re-ordered and re-weighted
+      .col-xs-3
+        h1 Easy templating
+        ul
+          li Tasks can be copied as a template
+          li Tasks can be assigned to people
+      .col-xs-3
+        h1 Task Data Structure
+        ul
+          li Task ID (hash)
+          li Task Created Datetime
+          li Task Permissions
+          li Task Name
+          li Task Creator
+          li Task Assignee
+          li Task Description (optional)
+          li Parent Task
+          li Completed?
+          li Percent Complete
+          li [Child Task, Child Weight]
+      .col-xs-3
+        h1 User Focused
+        ul
+          li Clean UI
+          li Intuitive UX
+          li Tree Project Structure
+          li Tasks represented by weight
+          li Drag and Drop Tasks
+          li Visualized completion
+          li Error indicators
+          li Task ageing
+          li Search
+          li History / Activity
+    .row.demonstration
+      .col-xs-6
+        a(id='runscript', href='#', class='btn', role='button') Click me
